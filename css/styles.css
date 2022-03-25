@@ -354,11 +354,10 @@ ul {
   height: 120px;
   background-color: #f5f4fa;
   border-radius: 4px;
-  padding-top: 25px;
-  padding-bottom: 25px;
-  padding-left: 100px;
-  padding-right: 100px;
   margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /* Чем мы занимаемся */
@@ -467,7 +466,9 @@ ul {
   height: 92px;
   border: 1px solid #afb1b8;
   border-radius: 4px;
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .company-link:hover,
@@ -490,7 +491,6 @@ ul {
 
 .company-logo {
   fill: var(--icon-color);
-  margin-top: 16px;
 }
 
 /* Section example */
